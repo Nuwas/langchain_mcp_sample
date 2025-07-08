@@ -1,28 +1,28 @@
 
 
 
-Terminal -1
+# Terminal -1
 
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requiremnts.txt
-pip install langchain_mcp_adapters
-pip install fastmcp
-python3 fastmcp/calculator_server_fastmcp.py
+* python3 -m venv venv
+* source venv/bin/activate
+* pip install -r requiremnts.txt
+* pip install langchain_mcp_adapters
+* pip install fastmcp
+* python3 fastmcp/calculator_server_fastmcp.py
 
 
-Terminal -2
+# Terminal -2
 
 source venv/bin/activate
 python3 fastmcp/weather_server_fastmcp.py
 
 
-Terminal -3
+# Terminal -3
 
 source venv/bin/activate
 python3 fastmcp/client.py
 
-Result 
+# Result 
 
 
 (venv) nuwasponnambathayil@WC954XW39W sample_gen_ai % python3 fastmcp/client.py
