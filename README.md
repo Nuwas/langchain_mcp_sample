@@ -1,6 +1,5 @@
 
 
-
 # Terminal -1
 
 * python3 -m venv venv
@@ -13,14 +12,14 @@
 
 # Terminal -2
 
-source venv/bin/activate
-python3 fastmcp/weather_server_fastmcp.py
+* source venv/bin/activate
+* python3 fastmcp/weather_server_fastmcp.py
 
 
 # Terminal -3
 
-source venv/bin/activate
-python3 fastmcp/client.py
+* source venv/bin/activate
+* python3 fastmcp/client.py
 
 # Result 
 
